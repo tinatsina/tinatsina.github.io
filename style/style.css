@@ -1,0 +1,102 @@
+:root{
+    
+--medium-purple: #9381ffff;
+--maximum-blue-purple: #b8b8ffff;
+--ghost-white: #f8f7ffff;
+--cool-black: #888888;
+
+}
+
+* {
+    margin: 2.5%;
+
+}
+
+body {
+    background-color: var(--ghost-white);
+    align-items: center;
+    text-align: center;
+    }
+
+#wrapper {
+    max-width: 750px;
+    margin: 0 auto;
+}
+
+h1 {
+    align-self: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: var(--cool-black);
+}
+
+h3 {
+    margin: 0%;
+}
+h4 {
+    margin: 0%;
+}
+
+#pro_pic{
+    width: 250px;
+    height: 250px;
+}
+
+#title {
+    font-size: x-large;
+    width: 200px;
+}
+
+ul {
+    list-style: none;
+    display: inline;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+
+li {
+    display: inline-block;
+}
+
+#title_socials{
+    border-top: 4px solid  var(--medium-purple);
+    border-bottom: 2px solid var(--medium-purple);
+}
+
+.fa{
+    font-size: xx-large;
+}
+
+#current_research{
+    text-align: left;
+    font-size: x-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#work_experience{
+    border-top: 4px solid  var(--medium-purple);
+    border-bottom: 2px solid var(--medium-purple);   
+}
+
+#table_heading {
+    font-size: x-large;
+    text-align: left;
+    min-width: 600px;
+}
+
+.second_td {
+    padding-left: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#table_text {
+    font-size: large;
+    text-align: left;
+    min-width: 200px;
+}
+
+tr {
+    margin-top: 55px;
+    margin-bottom: 55px;
+}
