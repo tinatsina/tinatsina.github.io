@@ -95,7 +95,7 @@ nav > ul > li > a {
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-  color: #7f8cff;
+  color: #606bc3;
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -517,7 +517,7 @@ textarea {
   font-weight: 400;
   font-size: 15px;
   line-height: 24px;
-  color: #b3bac5;
+  color: #6d7279;
 }
 
 .get-in-touch {
