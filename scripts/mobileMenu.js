@@ -1,7 +1,11 @@
-const menu = document.querySelector('#mobile-menu');
+const hamburger = document.querySelector('#mobile-menu-button');
+const navMenu = document.querySelector('.mobile-menu');
+const xBox = document.querySelector('.header-cross');
 
-function display() {
-  alert('Button Clicked');
-}
+hamburger.addEventListener('click', () => {
+  navMenu.classList.toggle('active');
+});
 
-menu.addEventListener('click', display);
+xBox.addEventListener('click', () => {
+  navMenu.classList.remove('active');
+});
