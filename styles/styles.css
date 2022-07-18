@@ -12,6 +12,11 @@ body {
   height: 718px;
 }
 
+.headline.active {
+  filter: blur(5px);
+  pointer-events: none;
+}
+
 nav > ul {
   flex-direction: row;
   align-items: center;
