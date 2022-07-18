@@ -562,13 +562,13 @@ textarea {
   position: absolute;
   height: 718px;
   left: -100%;
-  top: 0px;
+  top: 0;
   width: 100%;
-  background: rgba(57, 109, 242, 0.80);
+  background: rgba(57, 109, 242, 0.8);
   transition: 0.5s;
 }
 
-.mobile-menu.active{
+.mobile-menu.active {
   left: 0%;
 }
 
