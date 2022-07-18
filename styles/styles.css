@@ -139,6 +139,7 @@ nav > ul > li > a {
   color: #4c5ace;
   float: left;
   padding-left: 24px;
+  margin-top: 1em;
 }
 
 .nav-right {
@@ -146,10 +147,7 @@ nav > ul > li > a {
   width: 18px;
   height: 12px;
   padding-right: 5%;
-}
-
-.top-header {
-  margin-top: 12px;
+  margin-top: 1em;
 }
 
 .snapshoot-portfolio {

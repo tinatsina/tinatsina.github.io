@@ -39,7 +39,7 @@
     line-height: 20px;
   }
 
-  nav > img {
+  nav > a > img {
     display: none;
   }
 
