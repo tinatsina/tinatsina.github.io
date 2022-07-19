@@ -87,6 +87,52 @@
         </div>
     </section>
 
+    <!-- Modal SECTION -->
+
+    <div class="modal" id="modal">
+      <div class="card-works">
+        <div class="snapshoot-portfolio">
+          <h1>
+            Tonic <a data-closed-button><img data-close-button src="img/23.svg" alt="" class="modal-close-anchor"></a>
+          </h1>
+          <ul class="details-portfolio">
+              <li class="canopy">CANOPY</li>
+              <li class="dot-box">
+                  <img src="img/08.svg" alt="img">
+              </li>
+              <li class="no-canopy">Back End Dev</li>
+              <li class="dot-box">
+                  <img src="img/08.svg" alt="">
+              </li>
+              <li class="no-canopy">2015</li>
+          </ul>
+          <img src="img/07.png" alt="img">
+        </div>
+        <div class="content-portfolio">
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+              Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+              when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+              It has survived not only five centuries, 
+              but also the leap into electronic typesetting, 
+              remaining essent
+            </p>
+            <ul class="components-used">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+            </ul>
+            <button type="submit" class="see-project see-project-padding modal-button">
+                See live <img src="img/21.svg" alt="">
+            </button>
+            <button type="submit" class="see-project see-project-padding modal-button">
+              See Soure <img src="img/22.svg" alt="">
+          </button>
+        </div>
+    </div>
+    </div>
+    <div id="overlay"></div>
+
     <!-- PORTFOLIO SECTION -->
 
     <section id="the-portfolio-section">
@@ -119,7 +165,7 @@
                     <li>CSS</li>
                     <li>JavaScript</li>
                 </ul>
-                <button type="submit" class="see-project see-project-padding">
+                <button data-modal-target="#modal" type="submit" class="see-project see-project-padding">
                     See Project
                 </button>
             </div>
@@ -153,7 +199,7 @@
                     <li>Ruby on rails</li>
                     <li>JavaScript</li>
                 </ul>
-                <button type="submit" class="see-project see-project-padding">
+                <button data-modal-target="#modal" type="submit" class="see-project see-project-padding">
                     See Project
                 </button>
             </div>
@@ -187,7 +233,7 @@
                     <li>Ruby on rails</li>
                     <li>JavaScript</li>
                 </ul>
-                <button type="submit" class="see-project see-project-padding">
+                <button data-modal-target="#modal" type="submit" class="see-project see-project-padding">
                     See Project
                 </button>
             </div>
@@ -221,7 +267,7 @@
                     <li>CSS</li>
                     <li>JavaScript</li>
                 </ul>
-                <button type="submit" class="see-project see-project-padding">
+                <button data-modal-target="#modal" type="submit" class="see-project see-project-padding">
                     See Project
                 </button>
             </div>
