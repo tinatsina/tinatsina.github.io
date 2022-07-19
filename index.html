@@ -18,13 +18,35 @@
         </div>
         <div class="nav-right">
             <nav>
-                <img src="img/00.png" alt="">
+                <a href="#" id="mobile-menu-button">
+                  <img src="img/00.png" alt="">
+                </a>
                 <ul class="navigation-list">
-                    <li><a href="#">Portfolio</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="#the-portfolio-section">Portfolio</a></li>
+                    <li><a href="#the-about-section">About</a></li>
+                    <li><a href="#the-contact-section-target">Contact</a></li>
                 </ul>
             </nav>
+        </div>
+        <div class="mobile-menu">
+          <div class="header-cross">
+            <a href="#">
+              <img src="img/20.png" alt="">
+            </a>
+          </div>
+          <div class="list-of-tags">
+              <ul>
+                <li>
+                  <a href="#the-portfolio-section">Portfolio</a>
+                </li>
+                <li>
+                  <a href="#the-about-section">About</a>
+                </li>
+                <li>
+                  <a href="#the-contact-section-target">Contact</a>
+                </li>
+              </ul>
+          </div>
         </div>
     </header>
     <section class="headline">
@@ -67,7 +89,7 @@
 
     <!-- PORTFOLIO SECTION -->
 
-    <section>
+    <section id="the-portfolio-section">
         <div class="card-works">
             <div class="snapshoot-portfolio">
                 <img src="img/07.png" alt="img">
@@ -207,7 +229,7 @@
     
     <!-- ABOUT SECTION -->
     
-    <section>
+    <section id="the-about-section">
         <div class="about-section-container">
             <div class="about-section-top">
                 <h1 class="header-text-about">About Myself</h1>
@@ -282,7 +304,7 @@
 
     <!-- CONTACT FORM SECTION -->
 
-    <section class="the-contact-section">
+    <section class="the-contact-section" id="the-contact-section-target">
         <div class="contact-section">
             <div class="contact-top">
                 <h1>
@@ -306,5 +328,9 @@
             </div>
         </div>
     </section>
+    
+    <!-- JAVASCRIPT SECTION -->
+
+    <script src="scripts/mobileMenu.js"></script>
 </body>
 </html>

@@ -9,6 +9,12 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
+  height: 718px;
+}
+
+.headline.active {
+  filter: blur(5px);
+  pointer-events: none;
 }
 
 nav > ul {
@@ -139,6 +145,7 @@ nav > ul > li > a {
   color: #4c5ace;
   float: left;
   padding-left: 24px;
+  margin-top: 1em;
 }
 
 .nav-right {
@@ -146,10 +153,11 @@ nav > ul > li > a {
   width: 18px;
   height: 12px;
   padding-right: 5%;
+  margin-top: 1em;
 }
 
-.top-header {
-  margin-top: 12px;
+.nav-right.active {
+  display: none;
 }
 
 .snapshoot-portfolio {
@@ -553,4 +561,49 @@ textarea {
   background: #4c5ace;
   box-shadow: 1px 8px 16px rgba(64, 83, 252, 0.24);
   color: #fff;
+}
+
+.mobile-menu {
+  position: absolute;
+  height: 718px;
+  left: -100%;
+  top: 0;
+  width: 100%;
+  background: rgba(57, 109, 242, 0.8);
+  transition: 0.5s;
+}
+
+.mobile-menu.active {
+  left: 0%;
+}
+
+.header-cross {
+  margin-top: 2em;
+  float: right;
+  margin-right: 2em;
+}
+
+.list-of-tags {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  gap: 1em;
+  margin-top: 2em;
+}
+
+.list-of-tags > ul {
+  list-style: none;
+}
+
+.list-of-tags > ul > li > a {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  margin-top: 1em;
+  text-decoration: none;
 }
