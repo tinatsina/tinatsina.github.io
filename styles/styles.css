@@ -305,6 +305,8 @@ nav > ul > li > a {
   cursor: pointer;
 }
 
+/* Pop-up window for project card */
+
 .see-project-padding {
   margin-left: 5%;
 }
