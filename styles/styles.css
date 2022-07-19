@@ -626,6 +626,7 @@ textarea {
   flex-grow: 0;
   padding-left: 16px;
   align-items: center;
+  display: inline;
 }
 
 .modal-close-anchor {
