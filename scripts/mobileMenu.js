@@ -16,3 +16,5 @@ xBox.addEventListener('click', () => {
   navMenu.classList.remove('active');
   blurBackground.classList.remove('active');
 });
+
+// Javascript code for pop up window
