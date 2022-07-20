@@ -13,6 +13,7 @@ formButton.addEventListener('click', function(e) {
     }
 });
 
+// Function to check validity of email name
 function formNameChecker(formName) {
     let result = false
     const formNameLowerCase = formName.value.toLowerCase();
