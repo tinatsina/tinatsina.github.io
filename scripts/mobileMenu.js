@@ -19,6 +19,7 @@ let modalParagraph = document.querySelector('.modal-paragraph-text');
 let modalComponent1 = document.querySelector('.component-text-1');
 let modalComponent2 = document.querySelector('.component-text-2');
 let modalComponent3 = document.querySelector('.component-text-3');
+let modalImage = document.getElementById('modal-image-1').src="img/07.png";
 
 // Button Checks Per Modal
 
@@ -47,31 +48,11 @@ modalButton_4.addEventListener('click', () => {
   buttonCountCheck=4;
 });
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // DOM Data from Javascript
 
 let modalObject = {
   modal_1: {
-    portHeading: 'Tonic Under',
+    portHeading: 'Tonic',
     portList1: 'CANOPIE',
     portList2: 'Back End Dev',
     portList3: '2015',
@@ -144,6 +125,7 @@ function dataFeeder(num) {
     modalComponent1.textContent= modalObject.modal_1.toolList1;
     modalComponent2.textContent= modalObject.modal_1.toolList2;
     modalComponent3.textContent= modalObject.modal_1.toolList3;
+    document.getElementById('modal-image-1').src="img/07.png";
   } else if (num === 2) {
     modalHeader.textContent= modalObject.modal_2.portHeading;
     modalList1.textContent= modalObject.modal_2.portList1;
@@ -153,6 +135,7 @@ function dataFeeder(num) {
     modalComponent1.textContent= modalObject.modal_2.toolList1;
     modalComponent2.textContent= modalObject.modal_2.toolList2;
     modalComponent3.textContent= modalObject.modal_2.toolList3;
+    document.getElementById('modal-image-1').src="img/08.png";
   } else if (num === 3) {
     modalHeader.textContent= modalObject.modal_3.portHeading;
     modalList1.textContent= modalObject.modal_3.portList1;
@@ -162,6 +145,7 @@ function dataFeeder(num) {
     modalComponent1.textContent= modalObject.modal_3.toolList1;
     modalComponent2.textContent= modalObject.modal_3.toolList2;
     modalComponent3.textContent= modalObject.modal_3.toolList3;
+    document.getElementById('modal-image-1').src="img/09.png";
   } else if (num === 4) {
     modalHeader.textContent= modalObject.modal_4.portHeading;
     modalList1.textContent= modalObject.modal_4.portList1;
@@ -171,34 +155,11 @@ function dataFeeder(num) {
     modalComponent1.textContent= modalObject.modal_4.toolList1;
     modalComponent2.textContent= modalObject.modal_4.toolList2;
     modalComponent3.textContent= modalObject.modal_4.toolList3;
+    document.getElementById('modal-image-1').src="img/10.png";
   } else {
     alert('Error');
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 // Event Listener for hamburger menu
 hamburger.addEventListener('click', () => {
