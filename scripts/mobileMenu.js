@@ -13,7 +13,32 @@ const overlay = document.getElementById('overlay');
 
 let modalHeader = document.querySelector('.modal-header-text');
 
+// Button Checks Per Modal
 
+const modalButton_1 = document.querySelector('#modal-button-1');
+const modalButton_2 = document.querySelector('#modal-button-2');
+const modalButton_3 = document.querySelector('#modal-button-3');
+const modalButton_4 = document.querySelector('#modal-button-4');
+
+// The Button Checks Per Modal
+let buttonCountCheck = 0;
+
+// The Modal Targets Update the Button Checks
+modalButton_1.addEventListener('click', () => {
+  buttonCountCheck=1;
+});
+
+modalButton_2.addEventListener('click', () => {
+  buttonCountCheck=2;
+});
+
+modalButton_3.addEventListener('click', () => {
+  buttonCountCheck=3;
+});
+
+modalButton_4.addEventListener('click', () => {
+  buttonCountCheck=4;
+});
 
 
 
@@ -39,7 +64,7 @@ let modalHeader = document.querySelector('.modal-header-text');
 
 let modalObject = {
   modal_1: {
-    portHeading: 'Tonic Objec',
+    portHeading: 'Tonic Under',
     portList1: 'CANOPY',
     portList2: 'Back End Dev',
     portList3: '2015',
@@ -87,7 +112,8 @@ let modalObject = {
 openModalButtons.forEach( button => {
   button.addEventListener('click', () => {
 
-    modalHeader.textContent= modalObject.modal_1.portHeading;
+    // Modal Data Feeder
+    dataFeeder(buttonCountCheck);
 
     modal.classList.add('active');
     overlay.classList.add('active');
@@ -101,7 +127,19 @@ closeModalButtons.forEach( button => {
   });
 });
 
-
+function dataFeeder(num) {
+  if (num === 1) {
+    modalHeader.textContent= modalObject.modal_1.portHeading;
+  } else if (num === 2) {
+    alert('Button 2 Clicked');
+  } else if (num === 3) {
+    alert('Button 3 Clicked');
+  } else if (num === 4) {
+    alert('Button 4 Clicked');
+  } else {
+    alert('Error');
+  }
+}
 
 
 
