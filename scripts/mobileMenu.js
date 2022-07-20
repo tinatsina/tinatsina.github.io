@@ -3,6 +3,18 @@ const navMenu = document.querySelector('.mobile-menu');
 const xBox = document.querySelector('.header-cross');
 const blurBackground = document.querySelector('.headline');
 
+// Event Listener for hamburger menu
+hamburger.addEventListener('click', () => {
+  navMenu.classList.toggle('active');
+  blurBackground.classList.toggle('active');
+});
+
+// Event Listener for xBox on click
+xBox.addEventListener('click', () => {
+  navMenu.classList.remove('active');
+  blurBackground.classList.remove('active');
+});
+
 // Modal target constants
 
 const openModalButtons = document.querySelectorAll('[data-modal-target]');
@@ -156,16 +168,4 @@ closeModalButtons.forEach((button) => {
     modal.classList.remove('active');
     overlay.classList.remove('active');
   });
-});
-
-// Event Listener for hamburger menu
-hamburger.addEventListener('click', () => {
-  navMenu.classList.toggle('active');
-  blurBackground.classList.toggle('active');
-});
-
-// Event Listener for xBox on click
-xBox.addEventListener('click', () => {
-  navMenu.classList.remove('active');
-  blurBackground.classList.remove('active');
 });
