@@ -87,9 +87,51 @@
         </div>
     </section>
 
+    <!-- Modal SECTION -->
+
+    <div class="modal" id="modal">
+      <div class="card-works">
+        <div class="snapshoot-portfolio">
+          <h1 class="modal-header-text">
+            
+          </h1>
+          <a data-closed-button><img data-close-button src="img/23.svg" alt="" class="modal-close-anchor"></a>
+          <ul class="details-portfolio">
+              <li class="canopy modal-list1-text"></li>
+              <li class="dot-box">
+                  <img src="img/08.svg" alt="img">
+              </li>
+              <li class="no-canopy modal-list2-text"></li>
+              <li class="dot-box">
+                  <img src="img/08.svg" alt="">
+              </li>
+              <li class="no-canopy modal-list3-text"></li>
+          </ul>
+          <img id="modal-image-1" src="img/07.png" alt="img">
+        </div>
+        <div class="content-portfolio">
+            <p class="modal-paragraph-text">
+            </p>
+            <ul class="components-used">
+                <li class="component-text-1"></li>
+                <li class="component-text-2"></li>
+                <li class="component-text-3"></li>
+            </ul>
+            <button type="submit" class="see-project see-project-padding modal-button">
+                See live <img src="img/21.svg" alt="">
+            </button>
+            <button type="submit" class="see-project see-project-padding modal-button">
+              See Soure <img src="img/22.svg" alt="">
+          </button>
+        </div>
+    </div>
+    </div>
+    <div id="overlay"></div>
+
     <!-- PORTFOLIO SECTION -->
 
     <section id="the-portfolio-section">
+        <!-- Project card 1 -->
         <div class="card-works">
             <div class="snapshoot-portfolio">
                 <img src="img/07.png" alt="img">
@@ -118,7 +160,7 @@
                     <li>CSS</li>
                     <li>JavaScript</li>
                 </ul>
-                <button type="submit" class="see-project see-project-padding">
+                <button data-modal-target="#modal" type="submit" class="see-project see-project-padding" id="modal-button-1">
                     See Project
                 </button>
             </div>
@@ -152,7 +194,7 @@
                     <li>Ruby on rails</li>
                     <li>JavaScript</li>
                 </ul>
-                <button type="submit" class="see-project see-project-padding">
+                <button data-modal-target="#modal" type="submit" class="see-project see-project-padding" id="modal-button-2">
                     See Project
                 </button>
             </div>
@@ -186,7 +228,7 @@
                     <li>Ruby on rails</li>
                     <li>JavaScript</li>
                 </ul>
-                <button type="submit" class="see-project see-project-padding">
+                <button data-modal-target="#modal" type="submit" class="see-project see-project-padding" id="modal-button-3">
                     See Project
                 </button>
             </div>
@@ -220,7 +262,7 @@
                     <li>CSS</li>
                     <li>JavaScript</li>
                 </ul>
-                <button type="submit" class="see-project see-project-padding">
+                <button data-modal-target="#modal" type="submit" class="see-project see-project-padding" id="modal-button-4">
                     See Project
                 </button>
             </div>

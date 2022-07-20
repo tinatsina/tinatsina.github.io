@@ -232,7 +232,6 @@ nav > ul > li > a {
 }
 
 .content-portfolio > p {
-  height: 76px;
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -304,6 +303,8 @@ nav > ul > li > a {
   margin-left: 17%;
   cursor: pointer;
 }
+
+/* Pop-up window for project card */
 
 .see-project-padding {
   margin-left: 5%;
@@ -606,4 +607,59 @@ textarea {
   color: #fff;
   margin-top: 1em;
   text-decoration: none;
+}
+
+.modal-button {
+  display: inline;
+  align-items: center;
+}
+
+.snapshoot-portfolio > h1 {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  color: #172b4d;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  padding-left: 16px;
+  align-items: center;
+  display: inline;
+}
+
+.modal-close-anchor {
+  float: right;
+  margin-right: 1em;
+}
+
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  transition: 500ms ease-in-out;
+  z-index: 10;
+}
+
+.modal.active {
+  transform: translate(-50%, -50%) scale(1);
+}
+
+#overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0;
+  background: #c1c7d0;
+  mix-blend-mode: multiply;
+  pointer-events: none;
+}
+
+#overlay.active {
+  pointer-events: all;
+  opacity: 1;
 }
