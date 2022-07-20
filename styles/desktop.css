@@ -123,4 +123,9 @@
   .mobile-menu {
     display: none;
   }
+
+  .modal-close-anchor {
+    position: fixed;
+    left: 90%;
+  }
 }
