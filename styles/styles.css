@@ -638,13 +638,13 @@ textarea {
   position: fixed;
   top: 50%;
   left: 50%;
-  transform: translate(-50% , -50%) scale(0);
+  transform: translate(-50%, -50%) scale(0);
   transition: 500ms ease-in-out;
   z-index: 10;
 }
 
 .modal.active {
-  transform: translate(-50% , -50%) scale(1);
+  transform: translate(-50%, -50%) scale(1);
 }
 
 #overlay {
@@ -654,7 +654,7 @@ textarea {
   right: 0;
   bottom: 0;
   opacity: 0;
-  background: #C1C7D0;
+  background: #c1c7d0;
   mix-blend-mode: multiply;
   pointer-events: none;
 }
