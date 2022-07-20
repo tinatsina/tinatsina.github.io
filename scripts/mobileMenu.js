@@ -12,6 +12,13 @@ const overlay = document.getElementById('overlay');
 // Modal HTML Text Targets
 
 let modalHeader = document.querySelector('.modal-header-text');
+let modalList1 = document.querySelector('.modal-list1-text');
+let modalList2 = document.querySelector('.modal-list2-text');
+let modalList3 = document.querySelector('.modal-list3-text');
+let modalParagraph = document.querySelector('.modal-paragraph-text');
+let modalComponent1 = document.querySelector('.component-text-1');
+let modalComponent2 = document.querySelector('.component-text-2');
+let modalComponent3 = document.querySelector('.component-text-3');
 
 // Button Checks Per Modal
 
@@ -65,24 +72,24 @@ modalButton_4.addEventListener('click', () => {
 let modalObject = {
   modal_1: {
     portHeading: 'Tonic Under',
-    portList1: 'CANOPY',
+    portList1: 'CANOPIE',
     portList2: 'Back End Dev',
     portList3: '2015',
-    toolList1: 'HTML',
-    toolList2: 'CSS',
-    toolList3: 'Javascript',
-    paragraph: 'lorem ipsum blah blah',
+    toolList1: 'XML',
+    toolList2: 'SCSS',
+    toolList3: 'EcmaScript 6',
+    paragraph: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
     backGround: 'img/xx.png'
   },
   modal_2: {
-    portHeading: 'Mulit-Post Stories',
+    portHeading: 'Multi Stories',
     portList1: 'Facebook',
     portList2: 'Full Stack Dev',
     portList3: '2015',
     toolList1: 'HTML',
     toolList2: 'Ruby on rails',
     toolList3: 'Javascript',
-    paragraph: 'lorem ipsum blah blah',
+    paragraph: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
     backGround: 'img/xx.png'
   },
   modal_3: {
@@ -93,18 +100,18 @@ let modalObject = {
     toolList1: 'HTML',
     toolList2: 'Python',
     toolList3: 'Mongo DB',
-    paragraph: 'lorem ipsum blah blah',
+    paragraph: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
     backGround: 'img/xx.png'
   },
   modal_4: {
-    portHeading: 'Uber Navigation',
+    portHeading: 'Uber Nav',
     portList1: 'UBER',
     portList2: 'Lead Developer',
     portList3: '2018',
     toolList1: 'HTML',
     toolList2: 'CSS',
     toolList3: 'Javascript',
-    paragraph: 'lorem ipsum blah blah',
+    paragraph: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
     backGround: 'img/xx.png'
   }
 }
@@ -130,12 +137,40 @@ closeModalButtons.forEach( button => {
 function dataFeeder(num) {
   if (num === 1) {
     modalHeader.textContent= modalObject.modal_1.portHeading;
+    modalList1.textContent= modalObject.modal_1.portList1;
+    modalList2.textContent= modalObject.modal_1.portList2;
+    modalList3.textContent= modalObject.modal_1.portList3;
+    modalParagraph.textContent= modalObject.modal_1.paragraph;
+    modalComponent1.textContent= modalObject.modal_1.toolList1;
+    modalComponent2.textContent= modalObject.modal_1.toolList2;
+    modalComponent3.textContent= modalObject.modal_1.toolList3;
   } else if (num === 2) {
-    alert('Button 2 Clicked');
+    modalHeader.textContent= modalObject.modal_2.portHeading;
+    modalList1.textContent= modalObject.modal_2.portList1;
+    modalList2.textContent= modalObject.modal_2.portList2;
+    modalList3.textContent= modalObject.modal_2.portList3;
+    modalParagraph.textContent= modalObject.modal_2.paragraph;
+    modalComponent1.textContent= modalObject.modal_2.toolList1;
+    modalComponent2.textContent= modalObject.modal_2.toolList2;
+    modalComponent3.textContent= modalObject.modal_2.toolList3;
   } else if (num === 3) {
-    alert('Button 3 Clicked');
+    modalHeader.textContent= modalObject.modal_3.portHeading;
+    modalList1.textContent= modalObject.modal_3.portList1;
+    modalList2.textContent= modalObject.modal_3.portList2;
+    modalList3.textContent= modalObject.modal_3.portList3;
+    modalParagraph.textContent= modalObject.modal_3.paragraph;
+    modalComponent1.textContent= modalObject.modal_3.toolList1;
+    modalComponent2.textContent= modalObject.modal_3.toolList2;
+    modalComponent3.textContent= modalObject.modal_3.toolList3;
   } else if (num === 4) {
-    alert('Button 4 Clicked');
+    modalHeader.textContent= modalObject.modal_4.portHeading;
+    modalList1.textContent= modalObject.modal_4.portList1;
+    modalList2.textContent= modalObject.modal_4.portList2;
+    modalList3.textContent= modalObject.modal_4.portList3;
+    modalParagraph.textContent= modalObject.modal_4.paragraph;
+    modalComponent1.textContent= modalObject.modal_4.toolList1;
+    modalComponent2.textContent= modalObject.modal_4.toolList2;
+    modalComponent3.textContent= modalObject.modal_4.toolList3;
   } else {
     alert('Error');
   }
