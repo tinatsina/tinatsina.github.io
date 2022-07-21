@@ -18,6 +18,7 @@ function formNameChecker(formName) {
 formButton.addEventListener('click', (e) => {
   if (!formNameChecker(formEmail)) {
     e.preventDefault();
-    formError.textContent = `Lower case --> ${formEmail.value.toLowerCase()}`;
+    formError.classList.add('active');
+    formError.textContent = `Please make your email in lowercase --> ${formEmail.value.toLowerCase()}`;
   }
 });
