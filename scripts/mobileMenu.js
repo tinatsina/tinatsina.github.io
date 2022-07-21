@@ -49,15 +49,15 @@ modalButton1.addEventListener('click', () => {
 });
 
 modalButton2.addEventListener('click', () => {
-  buttonCountCheck = 2;
+  buttonCountCheck = 1;
 });
 
 modalButton3.addEventListener('click', () => {
-  buttonCountCheck = 3;
+  buttonCountCheck = 1;
 });
 
 modalButton4.addEventListener('click', () => {
-  buttonCountCheck = 4;
+  buttonCountCheck = 1;
 });
 
 // DOM Data from Javascript
