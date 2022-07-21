@@ -22,31 +22,6 @@ function storageAvailable(type) {
   }
 }
 
-if(localStorage.getItem('formName') === null) {
-  populateStorage();
-} else {
-  setStyles();
+if (storageAvailable('localStorage')) {
+  console.log('Local storage is available');
 }
-
-function setStyles() {
-  const currentName = localStorage.getItem('formName');
-  const currentEmail = localStorage.getItem('formEmail');
-  const currentMessage = localStorage.getItem('formMessage');
-
-  document.getElementById('form-name').value = currentName;
-  document.getElementById('form-email').value = currentEmail;
-  document.getElementById('form-text').value = currentMessage;
-
-  console.log(currentName + currentEmail + currentMessage);
-}
-
-function populateStorage() {
-  localStorage.setItem('formName', document.getElementById('form-name').value);
-  localStorage.setItem('formEmail', document.getElementById('form-email').value);
-  localStorage.setItem('formMessage', document.getElementById('form-text').value);
-  setStyles();
-}
-
-// document.getElementById('form-name').onchange = populateStorage;
-// document.getElementById('form-email').onchange = populateStorage;
-// document.getElementById('form-text').onchange = populateStorage;
