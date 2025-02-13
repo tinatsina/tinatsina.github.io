@@ -24,9 +24,11 @@ const config = {
   // If you aren't using GitHub pages, you don't need these.
   organizationName: "tinatsina", // Usually your GitHub org/user name.
   projectName: "tinatsina.github.io", // Usually your repo name.
+  trailingSlash: false,
 
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
+  deploymentBranch: "main",
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
@@ -94,6 +96,7 @@ const config = {
             label: "GitHub",
             position: "right",
           },
+          { to: "references", label: "Reference", position: "left" },
         ],
       },
       footer: {
