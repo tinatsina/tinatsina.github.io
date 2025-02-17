@@ -9,7 +9,6 @@ tags: [facebook, hello, docusaurus]
 
 Here are a few tips you might find useful.
 
-
 :::tip
 
 You can use the JSON files as dictionaries and simply use the Pandas `replace` function
