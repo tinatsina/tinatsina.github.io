@@ -1,13 +1,23 @@
 ---
 slug: welcome
-title: Welcome
-authors: [slorber, yangshun]
+title: HexGate Archives
+authors: [tinaye, yangshun]
 tags: [facebook, hello, docusaurus]
 ---
 
 [Docusaurus blogging features](https://docusaurus.io/docs/blog) are powered by the [blog plugin](https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-content-blog).
 
 Here are a few tips you might find useful.
+
+
+:::tip
+
+You can use the JSON files as dictionaries and simply use the Pandas `replace` function
+
+:::
+
+
+
 
 <!-- truncate -->
 
