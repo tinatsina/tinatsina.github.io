@@ -1,10 +1,9 @@
-/* For readability concerns, you should choose a lighter palette in dark mode. */
 :root {
-  --ifm-color-primary: #f9cdcd;
-  --ifm-color-primary-dark: #f4a4a4;
-  --ifm-color-primary-darker: #f29090;
-  --ifm-color-primary-darkest: #ea5353;
-  --ifm-color-primary-light: #fef6f6;
-  --ifm-color-primary-lighter: #ffffff;
-  --ifm-color-primary-lightest: #ffffff;
+    --ifm-color-primary: #85432e;
+    --ifm-color-primary-dark: #783c29;
+    --ifm-color-primary-darker: #713927;
+    --ifm-color-primary-darkest: #5d2f20;
+    --ifm-color-primary-light: #924a33;
+    --ifm-color-primary-lighter: #994d35;
+    --ifm-color-primary-lightest: #ad573c;
 }

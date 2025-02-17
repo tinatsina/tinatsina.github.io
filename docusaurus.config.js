@@ -88,7 +88,7 @@ const config = {
             type: "docSidebar",
             sidebarId: "tutorialSidebar",
             position: "left",
-            label: "Tutorial",
+            label: "Projects",
           },
           { to: "/blog", label: "Blog", position: "left" },
           {
@@ -96,7 +96,8 @@ const config = {
             label: "GitHub",
             position: "right",
           },
-          { to: "references", label: "Reference", position: "left" },
+          { to: "resume", label: "Resume", position: "left" },
+          { to: "certifications", label: "Certifications", position: "left" },
         ],
       },
       footer: {
@@ -142,7 +143,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} VaNyati, Inc.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Tinaye H Tsinakwadi`,
       },
       prism: {
         theme: prismThemes.github,

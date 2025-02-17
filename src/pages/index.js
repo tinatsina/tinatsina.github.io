@@ -9,17 +9,35 @@ import styles from "./index.module.css";
 
 function HomepageHeader() {
   return (
-    <header className={clsx("hero hero--primary")}>
-      <div className="hero_left">
-        <h1>Tinaye H Tsinakwadi</h1>
-        <ul>
-          <li>Student at Universitat Liechtenstein</li>
-          <li>Currently doing my Masters is Information Systems</li>
-          <li>Data/Financial Analyst</li>
-        </ul>
+    <header className={clsx("hero hero--primary", styles.heroBanner)}>
+      <div className="container">
+        <div className="hero__pretext"></div>
+        <Heading as="h1" className="hero__title" style={{ textAlign: "left" }}>
+          Tinaye H Tsinakwadi
+        </Heading>
+        <p
+          className="hero__subtitle"
+          style={{ width: "100%", textAlign: "left" }}
+        >
+          Hello, I'm currently doing my MSc in Informatiks at Universitat
+          Liechtenstein. Interested in Data Analysis, AI, and Quant Finance.
+        </p>
+        <div className={styles.buttons} style={{ justifyContent: "left" }}>
+          <Link
+            className="button button--secondary button--lg"
+            to="/docs/intro"
+            style={{ alignSelf: "left" }}
+          >
+            Contact Me
+          </Link>
+        </div>
       </div>
-      <div className="hero_right">
-        <img src="img/logo.svg" />
+      <div className="banner__img">
+        <img
+          src={"img/personal.jpg"}
+          alt="at something"
+          style={{ maxWidth: "90%", borderRadius: "2em" }}
+        />
       </div>
     </header>
   );
