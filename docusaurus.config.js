@@ -10,8 +10,8 @@ import { themes as prismThemes } from "prism-react-renderer";
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "Tinaye",
-  tagline: "Data Engineer",
+  title: "Tinaye H Tsinakwadi",
+  tagline: "System Administrator and Linux Developer",
   favicon: "img/dragon.ico",
 
   // Set the production url of your site here
