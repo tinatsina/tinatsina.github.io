@@ -78,7 +78,7 @@ const config = {
       // Replace with your project's social card
       image: "img/docusaurus-social-card.jpg",
       navbar: {
-        title: "Tinaye",
+        title: "Tinaye 天籁",
         logo: {
           alt: "My Site Logo",
           src: "img/logo.svg",
@@ -88,15 +88,15 @@ const config = {
             type: "docSidebar",
             sidebarId: "tutorialSidebar",
             position: "left",
-            label: "Tutorial",
+            label: "Works and Achievements",
           },
           { to: "/blog", label: "Blog", position: "left" },
-          {
-            href: "https://github.com/facebook/docusaurus",
-            label: "GitHub",
-            position: "right",
-          },
-          { to: "references", label: "Reference", position: "left" },
+          // {
+          //   href: "https://github.com/facebook/docusaurus",
+          //   label: "GitHub",
+          //   position: "right",
+          // },
+          { to: "certifications", label: "Certifications", position: "left" },
         ],
       },
       footer: {
