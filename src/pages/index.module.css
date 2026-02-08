@@ -21,3 +21,8 @@
   align-items: center;
   justify-content: center;
 }
+
+.about_me {
+  text-align: left;
+  font-size: 1.125rem;
+}

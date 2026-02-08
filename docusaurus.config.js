@@ -11,7 +11,7 @@ import { themes as prismThemes } from "prism-react-renderer";
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: "Tinaye H Tsinakwadi",
-  tagline: "System Administrator and Linux Developer",
+  tagline: "System Administrator, Linux Kernel Developer & Embedded Systems Developer",
   favicon: "img/dragon.ico",
 
   // Set the production url of your site here
@@ -48,7 +48,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+            "https://github.com/tinatsina/tinatsina.github.io/tree/development",
         },
         blog: {
           showReadingTime: true,
@@ -59,7 +59,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+            "https://github.com/tinatsina/tinatsina.github.io/tree/development",
           // Useful options to enforce blogging best practices
           onInlineTags: "warn",
           onInlineAuthors: "warn",
@@ -91,11 +91,11 @@ const config = {
             label: "Works and Achievements",
           },
           { to: "/blog", label: "Blog", position: "left" },
-          // {
-          //   href: "https://github.com/facebook/docusaurus",
-          //   label: "GitHub",
-          //   position: "right",
-          // },
+          {
+            href: "https://github.com/tinatsina/tinatsina.github.io/tree/development",
+            label: "GitHub Repo",
+            position: "right",
+          },
           { to: "certifications", label: "Certifications", position: "left" },
         ],
       },
@@ -103,28 +103,24 @@ const config = {
         style: "dark",
         links: [
           {
-            title: "Docs",
+            title: "Works and Acievements",
             items: [
               {
-                label: "Tutorial",
+                label: "Work History",
                 to: "/docs/intro",
               },
             ],
           },
           {
-            title: "Community",
+            title: "Social Media",
             items: [
               {
-                label: "Stack Overflow",
-                href: "https://stackoverflow.com/questions/tagged/docusaurus",
+                label: "LinkedIn",
+                href: "https://www.linkedin.com/in/tinayetsina/",
               },
               {
-                label: "Discord",
-                href: "https://discordapp.com/invite/docusaurus",
-              },
-              {
-                label: "X",
-                href: "https://x.com/docusaurus",
+                label: "GitHub",
+                href: "https://github.com/tinatsina",
               },
             ],
           },
@@ -137,12 +133,12 @@ const config = {
               },
               {
                 label: "GitHub",
-                href: "https://github.com/facebook/docusaurus",
+                href: "https://github.com/tinatsina",
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} VaNyati, Inc.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Tinaye Tsinakwadi.`,
       },
       prism: {
         theme: prismThemes.github,
