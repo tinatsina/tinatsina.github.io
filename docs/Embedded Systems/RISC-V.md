@@ -6,5 +6,5 @@ sidebar_position: 1
 
 ## How it started
 
-- I got my first taste of RISC-V when working for Nanjing Qinheng Microelectronics and have never looked back since
+- I got my first taste of RISC-V when working
 -

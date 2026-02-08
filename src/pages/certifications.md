@@ -1,26 +1,25 @@
 # 🎓 Ultimate Tech Certification List 2024
 
-Welcome to the ultimate collection of professional certifications! This list features **highly valuable** credentials across various technology domains that can boost your career. 📈
+Welcome to the ultimate collection of professional boost your career. 📈
 
 ## 📊 Certification Overview Table
 
 | 🏆 Certification | 🏢 Issuing Organization | 📁 Category | ⭐ Level | 📅 Year |
-| ----------------- | ------------------------ | ------------- | ---------- | --------- |
-| **AWS Certified Solutions Architect** | Amazon Web Services | ☁️ Cloud | Professional | 2023 |
-| **Certified Ethical Hacker (CEH)** | EC-Council | 🔐 Security | Intermediate | 2024 |
-| **Google Professional Data Engineer** | Google Cloud | 📊 Data Science | Professional | 2023 |
+| --------------- | ---------------------- | ----------- | -------- | ------- |
+| **AWS Certified Solutions Architect** | AWS | ☁️ Cloud | Pro | 2023 |
+| **Certified Ethical Hacker (CEH)** | EC-Council | 🔐 Security | Mid | 2024 |
+| **Google Data Engineer** | Google | 📊 Data Science | Pro | 2023 |
 | **CISSP** | (ISC)² | 🔐 Security | Expert | 2022 |
-| **Microsoft Certified: Azure Solutions Architect** | Microsoft | ☁️ Cloud | Expert | 2024 |
-| **Project Management Professional (PMP)** | PMI | 📋 Management | Professional | 2023 |
-| **Cisco Certified Network Associate (CCNA)** | Cisco | 🌐 Networking | Associate | 2024 |
-| **Certified Kubernetes Administrator (CKA)** | Linux Foundation | 🐳 DevOps | Professional | 2023 |
-| **Salesforce Certified Administrator** | Salesforce | 💼 CRM | Associate | 2024 |
+| **Azure Solutions Architect** | Microsoft | ☁️ Cloud | Expert | 2024 |
+| **Project Management Professional (PMP)** | PMI | 📋 Management | Pro | 2023 |
+| **Cisco  (CCNA)** | Cisco | 🌐 Networking | Associate | 2024 |
+| **Kubernetes Administrator (CKA)** | LF | 🐳 DevOps | Prof | 2023 |
 | **CompTIA Security+** | CompTIA | 🔐 Security | Intermediate | 2022 |
 
 ## 🌟 Top 5 Most In-Demand Certifications
 
 | Rank | Certification | Average Salary Increase | Difficulty |
-| ------ | --------------- | ------------------------- | ------------ |
+| ------ | ------------ | ---------------------- | --------- |
 | 1️⃣ | **AWS Certified Solutions Architect** | +25% | 🔥🔥🔥🔥 |
 | 2️⃣ | **CISSP** | +30% | 🔥🔥🔥🔥🔥 |
 | 3️⃣ | **Google Professional Data Engineer** | +28% | 🔥🔥🔥🔥 |
@@ -89,8 +88,8 @@ Welcome to the ultimate collection of professional certifications! This list fea
 
 ## 📚 Study Resources
 
-| Platform | Free Options | Paid Courses | Practice Exams |
-| ---------- | -------------- | -------------- | --------------- |
+| Platform | Free Options | Courses | Exams |
+| ------- | ---------- | ----------- | ------------ |
 | **Udemy** | Limited | ✅ | ✅ |
 | **Coursera** | ✅ (Audit) | ✅ | ❌ |
 | **Pluralsight** | ❌ | ✅ | ✅ |
