@@ -2,7 +2,9 @@
 sidebar_position: 1
 ---
 
-# Fire In The Booth
+# A little story about me
+
+my name is Tinaye
 
 - this is a list
 - the list of things to do

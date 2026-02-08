@@ -5,17 +5,17 @@ import styles from './styles.module.css';
 const FeatureList = [
   {
       title: 'RISC-V & Embedded Systems',
-      Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+      Svg: require('@site/static/img/RISC-V-logo.svg').default,
       description: ( <>Embedded Developer expert in RISC-V firmware, IoT, and motor control; open to firmware and low-level engineering roles.</> ),
     },
     {
       title: 'RHCSA Linux System Admin',
-      Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+      Svg: require('@site/static/img/Red_Hat_logo.svg').default,
       description: ( <>Experienced in Data Center operations and Network Engineering for Lenovo; seeking Linux SysAdmin and infrastructure roles.</> ),
     },
     {
       title: 'Microsoft Azure and Fabric',
-      Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+      Svg: require('@site/static/img/Microsoft_Azure.svg').default,
       description: ( <>Proficient in Microsoft Entra, Intune, and Azure Storage management; open to Cloud Operations and IT Admin roles.</> ),
     },
 ];

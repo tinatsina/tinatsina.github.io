@@ -1,19 +1,19 @@
-facebook:
-  label: Facebook
-  permalink: /facebook
-  description: Facebook tag description
+risc_v:
+  label: risc_v
+  permalink: /risc_v
+  description: RISC-V Instruction set and its relationship challenging ARM
 
-hello:
-  label: Hello
-  permalink: /hello
-  description: Hello tag description
+rhcsa:
+  label: RHCSA
+  permalink: /rhcsa
+  description: Learning about Linux System Admin and the Red Hat ecosystem
 
-docusaurus:
-  label: Docusaurus
-  permalink: /docusaurus
-  description: Docusaurus tag description
+azure:
+  label: Azure
+  permalink: /azure
+  description: Learning about Azure and cloud computing from the microsoft stack
 
-hola:
-  label: Hola
-  permalink: /hola
-  description: Hola tag description
+fabric:
+  label: Fabric
+  permalink: /fabric
+  description: Learning about Fabric and microsoft cloud computing frameworks
