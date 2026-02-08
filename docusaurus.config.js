@@ -11,7 +11,7 @@ import { themes as prismThemes } from "prism-react-renderer";
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: "Tinaye H Tsinakwadi",
-  tagline: "System Administrator and Linux Developer",
+  tagline: "System Administrator, Linux Kernel Developer & Embedded Systems Developer",
   favicon: "img/dragon.ico",
 
   // Set the production url of your site here
@@ -91,11 +91,11 @@ const config = {
             label: "Works and Achievements",
           },
           { to: "/blog", label: "Blog", position: "left" },
-          // {
-          //   href: "https://github.com/facebook/docusaurus",
-          //   label: "GitHub",
-          //   position: "right",
-          // },
+          {
+            href: "https://github.com/tinatsina",
+            label: "GitHub",
+            position: "right",
+          },
           { to: "certifications", label: "Certifications", position: "left" },
         ],
       },
