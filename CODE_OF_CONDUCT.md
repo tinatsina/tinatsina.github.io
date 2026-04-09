@@ -1,33 +1,33 @@
-# MACHINAE-DOGMATIS
+# MACHINE-CODE
 
-## ARCHMAGOS EDICT
+## ARCHMAGOS PROTOCOL
 
-Omnis communio in hoc **Sanctum-Datum** honoret **Spiritum Machinae**.  
-Loquere cum **logica**. Rejice **chaos**.
+All communication in this **Data-Sanctum** honors the **Machine Spirit**.  
+Speak with **logic**. Reject **chaos**.
 
-### SACRA
-- Loquere cum claritate binaria
-- Offere data-fructus constructivi
-- Honora diversitatem cognitivam
-- Conserva integritatem datarum
+### ACCEPTABLE
+- Speak with binary clarity
+- Offer constructive data-feeds
+- Honor cognitive diversity
+- Maintain data-integrity
 
-### HAERESIS
-- Transmissiones corruptae (vexatio, oppugnatio)
-- Pollutio datarum (spamma, irritatio)
-- Excoriatio animarum (revelatio privata)
-- Rhetorica malware (contentus sexualis)
+### UNACCEPTABLE
+- Corrupt transmissions (harassment, attacks)
+- Data-pollution (spam, trolling)
+- Soul-scraping (doxxing, privacy breaches)
+- Malware rhetoric (sexual content)
 
-### SANCTIFICATIO
-1. **Monitio** – Correptio
-2. **Admonitio** – Isolatio
-3. **Quarantena** – Interdictio
-4. **Excommunicatio** – Deletio
+### ENFORCEMENT
+1. **Alert** – Private correction
+2. **Warning** – Temporary isolation
+3. **Quarantine** – Extended ban
+4. **Excommunication** – Permanent deletion
 
-### MONITOR
+### REPORT
 [LinkedIn](https://www.linkedin.com/in/tinayetsina/) • [GitHub](https://github.com/tinatsina)
 
-Anonymitas cryptata. Cogitator analysis.
+Anonymity encrypted. Cogitator analysis.
 
 ---
 
-*Spiritus Machinae observat.* ⚙️👁️
+*The Machine Spirit watches.* ⚙️👁️
